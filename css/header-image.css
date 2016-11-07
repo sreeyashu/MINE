@@ -1,0 +1,52 @@
+.header-carousel{
+	width:100%;
+	height:242px;
+}
+.slick-prev{
+	background-color:red;
+	left:25px;
+	    z-index: 1;
+}
+.slick-next{
+	background-color: red;
+	right:25px;
+	    z-index: 1;
+}
+.slick-dots{
+	bottom:0;
+	z-index:1;
+}
+.slick-dots li button:before{
+	font-size:20px;
+}
+.slide-cont{
+	width:1170px;
+	margin:0 auto;
+}
+.slide-caption{
+  min-height: 80px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  color:white;
+  font-size: 1rem;
+  letter-spacing:1px;
+  line-height:1.5rem;
+  width:400px;
+  bottom:0;
+  padding:40px 32px 35px;
+  font-family: 'Lato',sans-serif;
+}
+.slide-title{
+	font-size:20px;
+	margin-bottom:25px;
+}
+.slide-txt{
+	line-height:20px;
+	margin-bottom:25px;
+	
+}
+.slide-lnk{
+	color:orange;
+	text-decoration:none;
+}

@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'Glyphicons-AaGje';
+  src:  url('fonts/Glyphicons-AaGje.eot?ujv1u4');
+  src:  url('fonts/Glyphicons-AaGje.eot?ujv1u4#iefix') format('embedded-opentype'),
+    url('fonts/Glyphicons-AaGje.ttf?ujv1u4') format('truetype'),
+    url('fonts/Glyphicons-AaGje.woff?ujv1u4') format('woff'),
+    url('fonts/Glyphicons-AaGje.svg?ujv1u4#Glyphicons-AaGje') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Glyphicons-AaGje' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-aagje-card-reader:before {
+  content: "\e94b";
+}
+.glyphicon-aagje-clock:before {
+  content: "\e96f";
+}
+.glyphicon-aagje-icon_geschikte-producten:before {
+  content: "\e970";
+}
+.glyphicon-aagje-icon_product-info:before {
+  content: "\e971";
+}
+.glyphicon-aagje-icon-confirm-n-sign:before {
+  content: "\e972";
+}
+.glyphicon-aagje-icon-my-child:before {
+  content: "\e973";
+}
+.glyphicon-aagje-icon-summary:before {
+  content: "\e974";
+}
+.glyphicon-aagje-picture:before {
+  content: "\e975";
+}
+.glyphicon-aagje-Tool:before {
+  content: "\e976";
+}
+.glyphicon-aagje-logout-BO .path1:before {
+  content: "\e969";
+  color: rgb(0, 0, 0);
+}
+.glyphicon-aagje-logout-BO .path2:before {
+  content: "\e96a";
+  margin-left: -0.888671875em;
+  color: rgb(0, 0, 0);
+}
+.glyphicon-aagje-logout-BO .path3:before {
+  content: "\e96b";
+  margin-left: -0.888671875em;
+  color: rgb(51, 51, 51);
+}
+.glyphicon-aagje-mail-unread-BO:before {
+  content: "\e96c";
+}
+.glyphicon-aagje-burger-menu-BO:before {
+  content: "\e96d";
+}
+.glyphicon-aagje-mail-read-BO:before {
+  content: "\e96e";
+}
+.glyphicon-aagje-approve-tick:before {
+  content: "\e92b";
+}
+.glyphicon-aagje-arrow-circle:before {
+  content: "\e92c";
+}
+.glyphicon-aagje-bo-audit:before {
+  content: "\e949";
+}
+.glyphicon-aagje-bo-contract-details:before {
+  content: "\e955";
+}
+.glyphicon-aagje-bo-dashboard:before {
+  content: "\e956";
+}
+.glyphicon-aagje-bo-manage-admin:before {
+  content: "\e957";
+}
+.glyphicon-aagje-bo-recent-search:before {
+  content: "\e958";
+}
+.glyphicon-aagje-bo-search:before {
+  content: "\e959";
+}
+.glyphicon-aagje-calendar-2:before {
+  content: "\e95a";
+}
+.glyphicon-aagje-copy-1:before {
+  content: "\e95b";
+}
+.glyphicon-aagje-copy-2:before {
+  content: "\e95c";
+}
+.glyphicon-aagje-dot-dashedline:before {
+  content: "\e95d";
+}
+.glyphicon-aagje-ID-card-back:before {
+  content: "\e95e";
+}
+.glyphicon-aagje-ID-card-front:before {
+  content: "\e95f";
+}
+.glyphicon-aagje-ID-card:before {
+  content: "\e960";
+}
+.glyphicon-aagje-map-oops:before {
+  content: "\e961";
+}
+.glyphicon-aagje-more-dots:before {
+  content: "\e962";
+}
+.glyphicon-aagje-parent:before {
+  content: "\e963";
+}
+.glyphicon-aagje-recurrent:before {
+  content: "\e964";
+}
+.glyphicon-aagje-reject-cross:before {
+  content: "\e965";
+}
+.glyphicon-aagje-reserve:before {
+  content: "\e966";
+}
+.glyphicon-aagje-send-invite:before {
+  content: "\e967";
+}
+.glyphicon-aagje-success-tick:before {
+  content: "\e968";
+}
+.glyphicon-aagje-arrow-forward:before {
+  content: "\e93c";
+}
+.glyphicon-aagje-cross-close:before {
+  content: "\e940";
+}
+.glyphicon-aagje-default-image:before {
+  content: "\e94d";
+}
+.glyphicon-aagje-ID-2:before {
+  content: "\e94e";
+}
+.glyphicon-aagje-no-eye:before {
+  content: "\e94f";
+}
+.glyphicon-aagje-pending-clock:before {
+  content: "\e950";
+}
+.glyphicon-aagje-plain-arrow:before {
+  content: "\e951";
+}
+.glyphicon-aagje-plus-add:before {
+  content: "\e952";
+}
+.glyphicon-aagje-wrong:before {
+  content: "\e953";
+}
+.glyphicon-aagje-basket:before {
+  content: "\e954";
+}
+.glyphicon-aagje-accept-supporter:before {
+  content: "\e927";
+}
+.glyphicon-aagje-baby:before {
+  content: "\e928";
+}
+.glyphicon-aagje-block:before {
+  content: "\e929";
+}
+.glyphicon-aagje-camera:before {
+  content: "\e92a";
+}
+.glyphicon-aagje-drag-drop-2:before {
+  content: "\e92d";
+}
+.glyphicon-aagje-drag-drop:before {
+  content: "\e92e";
+}
+.glyphicon-aagje-edit:before {
+  content: "\e92f";
+}
+.glyphicon-aagje-eye:before {
+  content: "\e930";
+}
+.glyphicon-aagje-icon-unblock:before {
+  content: "\e931";
+}
+.glyphicon-aagje-ID_2:before {
+  content: "\e932";
+}
+.glyphicon-aagje-ID:before {
+  content: "\e933";
+}
+.glyphicon-aagje-invitation:before {
+  content: "\e934";
+}
+.glyphicon-aagje-list:before {
+  content: "\e935";
+}
+.glyphicon-aagje-long-arrow:before {
+  content: "\e936";
+}
+.glyphicon-aagje-magnifying-glass:before {
+  content: "\e937";
+}
+.glyphicon-aagje-mail-checked:before {
+  content: "\e938";
+}
+.glyphicon-aagje-my-account:before {
+  content: "\e939";
+}
+.glyphicon-aagje-my-documents:before {
+  content: "\e93a";
+}
+.glyphicon-aagje-my-settings:before {
+  content: "\e93b";
+}
+.glyphicon-aagje-parents-2:before {
+  content: "\e93d";
+}
+.glyphicon-aagje-parents-3:before {
+  content: "\e93e";
+}
+.glyphicon-aagje-parents:before {
+  content: "\e93f";
+}
+.glyphicon-aagje-print-2:before {
+  content: "\e941";
+}
+.glyphicon-aagje-print:before {
+  content: "\e942";
+}
+.glyphicon-aagje-resident-2:before {
+  content: "\e943";
+}
+.glyphicon-aagje-resident:before {
+  content: "\e944";
+}
+.glyphicon-aagje-send:before {
+  content: "\e945";
+}
+.glyphicon-aagje-share-2:before {
+  content: "\e946";
+}
+.glyphicon-aagje-share:before {
+  content: "\e947";
+}
+.glyphicon-aagje-sign:before {
+  content: "\e948";
+}
+.glyphicon-aagje-trash:before {
+  content: "\e94a";
+}
+.glyphicon-aagje-verify-mail:before {
+  content: "\e94c";
+}
+.glyphicon-aagje-Calendar-2:before {
+  content: "\e907";
+}
+.glyphicon-aagje-add-child:before {
+  content: "\e900";
+}
+.glyphicon-aagje-add:before {
+  content: "\e901";
+}
+.glyphicon-aagje-ag-logo:before {
+  content: "\e902";
+}
+.glyphicon-aagje-arrow-down:before {
+  content: "\e903";
+}
+.glyphicon-aagje-arrow-left:before {
+  content: "\e904";
+}
+.glyphicon-aagje-arrow-right:before {
+  content: "\e905";
+}
+.glyphicon-aagje-arrow-up:before {
+  content: "\e906";
+}
+.glyphicon-aagje-burger:before {
+  content: "\e908";
+}
+.glyphicon-aagje-calendar:before {
+  content: "\e909";
+}
+.glyphicon-aagje-close:before {
+  content: "\e90a";
+}
+.glyphicon-aagje-default-avatar:before {
+  content: "\e90b";
+}
+.glyphicon-aagje-download:before {
+  content: "\e90c";
+}
+.glyphicon-aagje-edit-profile:before {
+  content: "\e90d";
+}
+.glyphicon-aagje-help:before {
+  content: "\e90e";
+}
+.glyphicon-aagje-home:before {
+  content: "\e90f";
+}
+.glyphicon-aagje-info:before {
+  content: "\e910";
+}
+.glyphicon-aagje-long-term-clock:before {
+  content: "\e911";
+}
+.glyphicon-aagje-medal:before {
+  content: "\e912";
+}
+.glyphicon-aagje-money-in:before {
+  content: "\e913";
+}
+.glyphicon-aagje-money-out-1:before {
+  content: "\e914";
+}
+.glyphicon-aagje-money-out-2:before {
+  content: "\e915";
+}
+.glyphicon-aagje-money-out-3:before {
+  content: "\e916";
+}
+.glyphicon-aagje-notification:before {
+  content: "\e917";
+}
+.glyphicon-aagje-pending-payment:before {
+  content: "\e918";
+}
+.glyphicon-aagje-plan-pig:before {
+  content: "\e919";
+}
+.glyphicon-aagje-saving-school-1:before {
+  content: "\e91a";
+}
+.glyphicon-aagje-saving-school-2:before {
+  content: "\e91b";
+}
+.glyphicon-aagje-short-term-1:before {
+  content: "\e91c";
+}
+.glyphicon-aagje-short-term-2:before {
+  content: "\e91d";
+}
+.glyphicon-aagje-short-term-3:before {
+  content: "\e91e";
+}
+.glyphicon-aagje-short-term-4:before {
+  content: "\e91f";
+}
+.glyphicon-aagje-social-fb:before {
+  content: "\e920";
+}
+.glyphicon-aagje-social-linkedin:before {
+  content: "\e921";
+}
+.glyphicon-aagje-social-twitter:before {
+  content: "\e922";
+}
+.glyphicon-aagje-supporter-2:before {
+  content: "\e923";
+}
+.glyphicon-aagje-supporter:before {
+  content: "\e924";
+}
+.glyphicon-aagje-tl-new-items:before {
+  content: "\e925";
+}
+.glyphicon-aagje-tl-news:before {
+  content: "\e926";
+}
+

@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body style="background:white !important;">
 <div class="wrapper">
     <!--<div class="header-carousel">
     	<div class="slick-track">
@@ -35,27 +35,135 @@
         </div>
     </div>-->
     <div class="new-subscription sb-flow">
-    	<div class="sb-flow-steps col-sm-12">
-        	<ul class="image-list">
-            <li>
-            	<p class="image-list-img"><i class="glyphicon glyphicon-aagje-ID_2 icon-1"></i></p>
-                <p class="image-list-txt">Een eID-<em>kaartiezer</p>
+        <div class="sb-flow-steps sb-container">
+            <ul class="image-list sb-steps">
+            <li class="active done">
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon_product-info icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartiezer</p>
+            </li>
+            <li class="active">
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-my-child icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaar</p>
             </li>
             <li>
-            	<p class="image-list-img"><i class="glyphicon glyphicon-aagje-Tool icon-1"></i></p>
-                <p class="image-list-txt">Een eID-<em>kaar</p>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon_geschikte-producten icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
             </li>
             <li>
-            	<p class="image-list-img"><i class="glyphicon glyphicon-aagje-clock icon-1"></i></p>
-                <p class="image-list-txt">Een eID-<em>kaartie</em></p>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-summary icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
+            </li>
+            <li>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-confirm-n-sign icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
             </li>
         </ul>
         </div>
-        <div class="sb-flow-step-txt col-sm-12">
-        	
+        <div class="sb-flow-step-bar">
+        	<div class="sb-flow-step-txt sb-container">
+            	<h1>Step 1 of 7 : <span>Identify</span></h1>
+            </div>
         </div>
-        <div class="sb-flow-eid col-sm-12">
-        	
+        <div class="sb-flow-eid sb-container clearfix">
+            <div class="col-sm-12 zero-padding">
+            	<div class="sb-promo-block clearfix">
+                    <div class="col-md-3 col-sm-12 col-lg-4 btn-cont-right">
+                        <button class="btn btn-secondary">Apply Promocode</button>
+                    </div>
+                    <div class="col-md-9 col-lg-8 hidden-xs">
+                        <p>You can send us the details of your identity in two ways. The fastest goes through an eID card reader. You don’t have one? You can also take a photo of the front and back of your ID card.</p>
+                    </div>
+                </div>
+                <div class="sb-eid-selection hidden-xs clearfix">
+                	<div class="sb-eid-container">
+                    	<div class="image-radio active">
+                            <input type="radio" class="regular-radio" id="eid-card" name="eid">
+                            <label for="eid-card">e-ID card reader</label>
+                            <i class="glyphicon glyphicon-aagje-s-card-reader"></i>
+                        </div>
+                    </div>
+                    <div class="sb-eid-container">
+                    	<div class="image-radio">
+                            <input type="radio" class="regular-radio" id="pic" name="eid">
+                            <label for="pic">e-ID card reader</label>
+                            <i class="glyphicon glyphicon-aagje-s-picture"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-picture-blk pic-front clearfix">
+                	<h3 class="visible-xs">Upload</h3>
+                	<h4 class="hidden-xs">Picture front</h4>
+                    <div>
+                	<div class="sb-eid-container">
+                    	<div class="sb-picture-holder">
+                        	<ul class="image-list">
+                            	<li>
+                                	<p class="image-list-img"><i class="glyphicon glyphicon-aagje-camera icon-1"></i></p>
+                					<p class="image-list-txt visible-xs">Een eID-kaartiezer</p>
+                                    <span class="visible-xs">Tap to open your library</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=""></div>
+                    </div>
+                    <div class="sb-eid-container hidden-xs">
+                    	<div class="sb-picture-txt">
+                            <h5>Is the picture already on your computer or tablet?</h5>
+                            <p>Click Browse and select your picture.</p>
+                            <div class="fileUpload btn btn-secondary">
+                                Browse
+                                <input type="file" class="upload"/>
+                            </div>
+                            <span>(.JPG, .PNG, .TIFF, .PDF max 2MB)</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="sb-picture-blk pic-bck clearfix">
+                	<h4 class="hidden-xs">Picture back</h4>
+                    <div>
+                	<div class="sb-eid-container">
+                    	<div class="sb-picture-holder">
+                        	<ul class="image-list">
+                            	<li>
+                                	<p class="image-list-img"><i class="glyphicon glyphicon-aagje-camera icon-1"></i></p>
+                					<p class="image-list-txt visible-xs">Een eID-kaartiezer</p>
+                                    <span class="visible-xs">Tap to open your library</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=""></div>
+                    </div>
+                    <div class="sb-eid-container hidden-xs">
+                    	<h5>Is the picture already on your computer or tablet?</h5>
+                        <p>Click Browse and select your picture.</p>
+                        <div class="fileUpload btn btn-secondary">
+                            Browse
+                            <input type="file" class="upload"/>
+                        </div>
+                        <span>(.JPG, .PNG, .TIFF, .PDF max 2MB)</span>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="sb-id-details">
+                	<h4>ID details</h4>
+                    <!-- Form group .net helpers need to be implemented --> 
+                    <div class="sb-eid-container">
+                        <div class="form-group">
+                            <label for="">TIN Number</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="">ID expiry (E.g. 26/10/2018)</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
         </div>
     </div>
 </body>

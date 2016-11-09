@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Glyphicons-AaGje';
-  src:  url('fonts/Glyphicons-AaGje.eot?w8q38y');
-  src:  url('fonts/Glyphicons-AaGje.eot?w8q38y#iefix') format('embedded-opentype'),
-    url('fonts/Glyphicons-AaGje.ttf?w8q38y') format('truetype'),
-    url('fonts/Glyphicons-AaGje.woff?w8q38y') format('woff'),
-    url('fonts/Glyphicons-AaGje.svg?w8q38y#Glyphicons-AaGje') format('svg');
+  src:  url('fonts/Glyphicons-AaGje.eot?ujv1u4');
+  src:  url('fonts/Glyphicons-AaGje.eot?ujv1u4#iefix') format('embedded-opentype'),
+    url('fonts/Glyphicons-AaGje.ttf?ujv1u4') format('truetype'),
+    url('fonts/Glyphicons-AaGje.woff?ujv1u4') format('woff'),
+    url('fonts/Glyphicons-AaGje.svg?ujv1u4#Glyphicons-AaGje') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,31 +24,31 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.glyphicon-aagje-s-card-reader:before {
+.glyphicon-aagje-card-reader:before {
   content: "\e94b";
 }
-.glyphicon-aagje-s-confirm-sign:before {
+.glyphicon-aagje-clock:before {
   content: "\e96f";
 }
-.glyphicon-aagje-s-my-child:before {
+.glyphicon-aagje-icon_geschikte-producten:before {
   content: "\e970";
 }
-.glyphicon-aagje-s-picture:before {
+.glyphicon-aagje-icon_product-info:before {
   content: "\e971";
 }
-.glyphicon-aagje-s-plan:before {
+.glyphicon-aagje-icon-confirm-n-sign:before {
   content: "\e972";
 }
-.glyphicon-aagje-s-product-info:before {
+.glyphicon-aagje-icon-my-child:before {
   content: "\e973";
 }
-.glyphicon-aagje-s-producten:before {
+.glyphicon-aagje-icon-summary:before {
   content: "\e974";
 }
-.glyphicon-aagje-s-summary:before {
+.glyphicon-aagje-picture:before {
   content: "\e975";
 }
-.glyphicon-aagje-s-tool:before {
+.glyphicon-aagje-Tool:before {
   content: "\e976";
 }
 .glyphicon-aagje-logout-BO .path1:before {

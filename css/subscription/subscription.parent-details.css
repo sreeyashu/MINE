@@ -1,1 +1,23 @@
-﻿
+.sb-parent-form{
+	font-size:16px;/* change globally*/
+}
+.sb-parent-form .form-group, .sb-parent-form .dropdown-toggle{
+	width:300px;
+}
+.form-group-col .form-group, .form-group-col .dropdown-toogle{
+	display:inline-block;
+	margin-right:20px;
+}
+.form-group-col .form-group.small{ width:95px;}
+
+.form-selection-row.col .form-selc-radio{ display:inline-block; margin-right:20px;}
+
+.form-selection-row{margin-bottom:40px;}
+.form-selection-row:last-child{ margin-bottom:0;}
+
+.form-control-hidden{margin-top:20px; padding-left:20px; border-left:1px solid #d8d8d8; display:none;}
+
+.form-selection-row .form-group-col:last-child .form-group{ margin-bottom:2px;}
+
+
+.sb-footer{ display:none !important}

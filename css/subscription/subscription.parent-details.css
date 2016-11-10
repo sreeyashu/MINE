@@ -1,4 +1,4 @@
-.sb-parent-form{
+.sb-form{
 	font-size:16px;/* change globally*/
 }
 .sb-parent-form .form-group, .sb-parent-form .dropdown-toggle{
@@ -18,6 +18,8 @@
 .form-control-hidden{margin-top:20px; padding-left:20px; border-left:1px solid #d8d8d8; display:none;}
 
 .form-selection-row .form-group-col:last-child .form-group{ margin-bottom:2px;}
+
+.info-icon{ color:#01cbd3; margin-left:20px; font-size:18px; cursor:pointer;}
 
 
 .sb-footer{ display:none !important}

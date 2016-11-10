@@ -76,3 +76,24 @@ article,
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    line-height: 1.4;
+    margin-left: 0;line-height:1.4;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 100%;
+}

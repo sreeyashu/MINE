@@ -1,0 +1,108 @@
+﻿.sb-stitle{
+	font-size:22px;
+	color:#00b3ba;
+	line-height:23px;
+	font-weight:500;
+	margin-bottom:40px;
+}
+.sb-review.image-list li{
+	width:240px;
+	padding:0 10px;
+}
+.sb-review.image-list .image-list-img{
+	width:74px;
+	height:74px;
+	background-color:#007b80;
+}
+.sb-review.image-list .image-list-txt{
+	margin-top:25px;
+}
+
+/* Sub bar checklist*/
+.sb-review-checklist{
+	background-color:#f7f7f7;
+	text-align:center;
+	margin-bottom:25px;
+}
+.sb-review-checklist ul{
+	display:table;
+	margin:0 auto;
+	padding:20px 0
+}
+.sb-review-checklist ul li{
+	display:table-cell;
+	vertical-align:top;
+	padding:0 15px;
+	font-size:16px;
+	text-align:left;
+}
+.sb-review-checklist ul li div{
+	position:relative;
+}
+.sb-review-checklist ul li p{
+	padding-left:25px;
+	margin-bottom:0;
+}
+.sb-review-checklist ul li .icon{ color:orange; position:absolute;}
+
+/* sub action*/
+.sb-review-action{ display:inline-block;}
+.sb-review-action label{ font-size:16px; font-weight:normal;}
+.sb-review-checkbox, .sb-review-btn{
+	display:table-cell;
+	vertical-align:middle;
+}
+.sb-review-checkbox [type="checkbox"]:not(:checked)+label, .sb-review-checkbox [type="checkbox"]:checked+label{
+  padding-left:45px;
+  line-height: 25px;
+  margin-bottom:0;
+}
+.sb-review-btn{
+	padding-left:60px;
+}
+@media all and (max-width:767px){
+	.sb-stitle{
+		padding:0 30px;
+	}
+	.sb-review.image-list{
+		padding:0 30px;
+	}
+	.sb-review.image-list li{
+		width:100%;
+		padding:0;
+		text-align:left;
+		margin-bottom: 20px;	
+	}
+	.sb-review.image-list .image-list-img{
+		vertical-align:middle;
+		display:table-cell;
+		text-align:center;
+	}
+	.sb-review .image-list-img .icon-1{
+		display:inline;
+	}
+	.sb-review .image-list-txt{
+		display:table-cell;
+		vertical-align:middle;
+		padding-left:30px;
+	}
+	.sb-review-checklist{
+		height:auto;
+		padding:30px;
+	}
+	.sb-review-checklist ul{
+		height:auto;
+	}
+	.sb-review-checklist ul li{
+		display:block;
+		width:100%;
+		    text-align: left;
+	}
+	.sb-review-action{
+		padding:0 30px;
+	}
+}
+@media all and (max-width:479px){
+	.sb-review-action{ padding:0;}
+	.sb-review-checkbox, .sb-review-btn{ display:block; width:100%; padding:0 30px; margin-bottom:20px;}
+}

@@ -15,11 +15,61 @@
 .form-selection-row{margin-bottom:40px;}
 .form-selection-row:last-child{ margin-bottom:0;}
 
-.form-control-hidden{margin-top:20px; padding-left:20px; border-left:1px solid #d8d8d8; display:none;}
+.form-control-hidden{margin-top:20px; padding-left:20px; border-left:1px solid #d8d8d8;}
 
 .form-selection-row .form-group-col:last-child .form-group{ margin-bottom:2px;}
+.form-selection-row.bordered{ border-radius:3px; border:1px solid #00b3ba; padding:15px 30px;  margin-bottom:10px;}
 
 .info-icon{ color:#01cbd3; margin-left:20px; font-size:18px; cursor:pointer;}
 
 
-.sb-footer{ display:none !important}
+
+/*Saved details*/
+
+.sb-cont-unoverlap{ margin-top:70px;}
+.sb-saved-details{ background:#f7f7f7; padding:20px 100px;}
+
+.sb-mifid-questions{ margin-top:30px;}
+.sb-mifid-questions .form-selc-radio + .form-selc-radio{ margin-top:20px}
+
+
+@media all and (max-width:991px){
+	.sb-cont-unoverlap{ margin-top:15px}
+}
+@media all and (max-width:767px){
+	.sb-form{ width:440px; margin:0 auto; text-align:left;}
+	.form-selection-row .form-group-col:last-child .form-group{ margin-bottom:40px;}
+	.form-control-hidden .form-group-col .form-group:last-child{ margin-bottom:2px;}
+	.sb-saved-details{ padding:10px;}
+}
+@media all and (max-width:479px){
+	.sb-form{ width:100%;}
+	.sb-parent-form .form-group, .sb-parent-form .dropdown-toggle{ width:100%;}
+}
+
+/* Commons*/
+.list-details{ text-align:left; margin-bottom:0;}
+.list-details + .list-details{ margin-top:40px;}
+.list-details li + li{ margin-top:20px;}
+.list-details li label{ font-weight:400; width:40%; margin-bottom:0; padding-right:20px;}
+.list-details li label+span{ font-weight:500;display: inline-block;vertical-align: top;}
+.list-details li label+span > span{ display:block; margin-top:3px;}
+.list-details > li > ul{ margin-top:15px;}
+.list-details > li > ul li + li{ margin-top:10px;}
+.list-details > li > ul > li label{ padding-left:20px;}
+
+
+.list-details.que-list > li > label{ width:80%;}
+.list-details.que-list > li + li{ margin-top:30px;}
+
+@media all and (max-width:767px){
+	.list-details li label{ width:100%; display:block; margin-bottom:10px; padding-right:0;}
+	.list-details li label+span{ padding-left:10px;}
+	.list-details li > ul label+span{ padding-left:30px;}
+}
+
+
+
+
+body{ font-size:16px !important;}
+

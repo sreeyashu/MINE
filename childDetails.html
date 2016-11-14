@@ -1,0 +1,319 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="css/library.css"/>
+  <link rel="stylesheet" type="text/css" href="css/commons.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="css/font.css"/>
+<link rel="stylesheet" type="text/css" href="css/header-image.css"/>
+<!--<link rel="stylesheet" type="text/css" href="css/new-subscription.css"/>-->
+<link rel="stylesheet" type="text/css" href="css/subscriptionall.css"/>
+
+</head>
+
+<body style="background:white !important;">
+<div class="wrapper">
+   
+    <div class="new-subscription sb-flow">
+        <div class="sb-flow-steps sb-container">
+            <ul class="image-list sb-steps">
+            <li class="active done">
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon_product-info icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartiezer</p>
+            </li>
+            <li class="active">
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-my-child icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaar</p>
+            </li>
+            <li>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon_geschikte-producten icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
+            </li>
+            <li>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-summary icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
+            </li>
+            <li>
+                <p class="image-list-img"><i class="glyphicon glyphicon-aagje-icon-confirm-n-sign icon-1"></i></p>
+                <p class="image-list-txt">Een eID-kaartie</em></p>
+            </li>
+        </ul>
+        </div>
+        <div class="sb-flow-step-bar">
+        	<div class="sb-flow-step-txt sb-container">
+            	<h1>Step 3 of 7 : <span>My child details</span></h1>
+            </div>
+        </div>
+        <div class="sb-flow sb-container sb-parent-details clearfix">
+        	<div class="col-sm-12 zero-padding">
+            	<div class="sb-promo-block clearfix">
+                	<button class="btn btn-secondary">Apply Promocode</button>
+                </div>
+                <form class="sb-form sb-parent-form">
+                	<div class="form-context-group">
+                    	<div class="form-group">
+                        	<label>Birthdate(E.g 24/1/1985)</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                        	<label>Birthplace</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-context-group">
+                    	<div class="form-group">
+                        	<label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName"/>
+                        </div>
+                        <div class="form-group">
+                        	<label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName"/>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="sb-questions">
+                    	<div class="form-selection-row col">
+                        	<p>Gender</p>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="gender-yes" name="gender"/>
+                                <label for="gender-yes">Male</label>
+                            </div>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="gender-no" name="gender"/>
+                                <label for="gender-no">Female</label>
+                            </div>
+                        </div>
+                    	<div class="form-selection-row">
+                        	<p>Relation with the child you want to invest for:</p>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="Mother" name="relation"/>
+                                <label for="Mother">Mother</label>
+                            </div>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="father" name="relation"/>
+                                <label for="father">father</label>
+                            </div>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="Tutor" name="relation"/>
+                                <label for="Tutor">Tutor</label>
+                            </div>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="other" name="relation"/>
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-selection-row col bordered">
+                        	<p>Do you want to reuse the same data as yours for the following questions ?</p>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="reuse-yes" name="reuseData"/>
+                                <label for="reuse-yes">Yes</label>
+                            </div>
+                            <div class="form-selc-radio">
+                            	<input type="radio" class="regular-radio" id="reuse-no" name="reuseData"/>
+                                <label for="reuse-no">No</label>
+                            </div>
+                        </div>
+                       
+                        <div class="reusedata-yes">
+                        	<div class="sb-saved-details">
+                    	<ul class="list-details">
+                            <li>
+                            	<label>Address</label>
+                                <span><span>Avenue Maurice Maeterlink 80</span><span>1030 Brussels</span></span>
+                            </li>
+                        </ul>
+                        <ul class="list-details que-list">
+                        	<li>
+                            	<label>Do you have US citizenship and / or are you born in the USA?</label>
+                                <span>No</span>
+                            </li>
+                            <li>
+                            	<label>Are you a US person (citizen or resident of the United States of America?</label>
+                                <span>No</span>
+                            </li>
+                            <li>
+                            	<label>Is belgium your only fiscal residence?</label>
+                                <span>No</span>
+                                <ul class="list-details">
+                                	<li>
+                                    	<label>Country :</label>
+                                        <span>Algérie</span>
+                                    </li>
+                                    <li>
+                                    	<label>TIN :</label>
+                                        <span>xxxxxx</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                            	<label>Do or did you (or family member) have an important public function during the last 12 months?</label>
+                                <span>Person linked to me</span>
+                                <ul class="list-details">
+                                	<li>
+                                    	<label></label>
+                                        <span>Mathieu</span>
+                                    </li>
+                                    <li>
+                                    	<label></label>
+                                        <span>Sammet</span>
+                                    </li>
+                                    <li>
+                                    	<label></label>
+                                        <span>Brother</span>
+                                    </li>
+                                    <li>
+                                    	<label></label>
+                                        <span>Minister</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                        </div>
+                        <div class="reusedata-no hide" id="reuseDataNo">
+                        	<div class="form-context-group">
+                                <div class="form-group-col">
+                                    <div class="form-group">
+                                        <label>Street</label>
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                    <div class="form-group small">
+                                        <label>N0</label>
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="form-group-col">
+                                    <div class="form-group small">
+                                        <label>Zip code</label>
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Country</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="sb-questions">
+                            	<div class="form-selection-row col">
+                                    <p>Does your child have US citizenship and / or is your child born in the USA?<i class="glyphicon glyphicon-aagje-s-product-info info-icon"></i></p>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="born-yes" name="born"/>
+                                        <label for="born-yes">Yes</label>
+                                    </div>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="born-no" name="born"/>
+                                        <label for="born-no">No</label>
+                                    </div>
+                                </div>
+                                <div class="form-selection-row col">
+                                    <p>Is your child a US person? (citizen or resident of the United States of America)?<i class="glyphicon glyphicon-aagje-s-product-info info-icon"></i></p>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="citizen-yes" name="citizen"/>
+                                        <label for="citizen-yes">Yes</label>
+                                    </div>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="citizen-no" name="citizen"/>
+                                        <label for="citizen-no">No</label>
+                                    </div>
+                                </div>
+                                <div class="form-selection-row col">
+                                    <p>Is Belgium the only fiscal residence of your child?<i class="glyphicon glyphicon-aagje-s-product-info info-icon"></i></p>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="residence-yes" name="residence"/>
+                                        <label for="residence-yes">Yes</label>
+                                    </div>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="residence-no" name="residence"/>
+                                        <label for="residence-no">No</label>
+                                    </div>
+                                    <div class="form-control-hidden">
+                                        <p>Select every country where your child has fiscale residence :</p>
+                                        <p>Input TIN for each country.</p>
+                                        <div class="form-group-col">
+                                        <!-- Dropdown need to implemented -->
+                                            <div class="form-group">
+                                                <label>Country</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>TIN(Optional)</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-selection-row col">
+                                    <p>Does or did a family member of your child hold an important public function during the last 12 months?<i class="glyphicon glyphicon-aagje-s-product-info info-icon"></i></p>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="publicFunctionYes" name="public-function"/>
+                                        <label for="publicFunctionYes">Yes</label>
+                                    </div>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="publicFunctionNo" name="public-function"/>
+                                        <label for="publicFunctionNo">No</label>
+                                    </div>
+                                    <div class="form-selc-radio">
+                                        <input type="radio" class="regular-radio" id="publicFunctionLinked" name="public-function"/>
+                                        <label for="publicFunctionLinked">Person linked to me</label>
+                                    </div>
+                                    <div class="form-control-hidden">
+                                        <p>Person linked to me</p>
+                                        <div class="row">
+                                            <div class="form-group">
+                                                <label>First name</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group">
+                                                <label>Last name</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group-col">
+                                            <div class="form-group">
+                                                <label>Relation</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Function</label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        
+        <div class="sb-footer btn-cont">
+            <div class="btn-cont-right">
+            	<button class="btn btn-func-primary">Next<i class="glyphicon glyphicon-aagje-arrow-right btn-icon-right"></i></button>
+                <button class="btn btn-func-primary btn-lnk"><i class="glyphicon glyphicon-aagje-arrow-left btn-icon-left"></i>back</button>
+            </div>
+            <div class="btn-cont-left btn-only-icon-xs">
+            	<button class="btn btn-func-primary btn-lnk btn-icon-xs"><i class="glyphicon glyphicon-aagje-download btn-icon-left"></i><span class="download-txt">Save for Later</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

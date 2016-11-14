@@ -1,0 +1,28 @@
+.sb-term { margin-top:40px;}
+.sb-term h3{ color:#00b3ba;}
+.sb-term h3 i{ margin-right:15px; font-size:30px;vertical-align: sub;}
+.sb-fiscal{ margin-top:40px;}
+
+.selection-expand{ border:1px solid #b2b2b2; border-radius:3px; padding:30px 50px; margin-top:20px; position:relative;}
+.selection-expand.active:before{ border-left:6px solid #007b80; content:""; height:100%; position:absolute; top:0; left:0;}
+.selection-expand span{ color:#007b80; font-weight:500; margin-right:20px;}
+.selection-expand .regular-radio + label{ font-size:22px; font-weight:500; padding-left:70px; color:#4d4d4d; margin-right:20px; line-height:1;}
+.selection-expand p{ padding-left:70px; margin-top:20px;}
+.selection-expand p a.more-info{ display:block; margin-top:15px;}
+.selection-collapsed{ margin-left:70px; margin-top:15px; border-top:1px solid #b2b2b2; padding-top:12px; display:none;}
+
+@media all and (max-width:767px){
+	.selection-expand{ padding:15px 20px;}
+	.selection-collapsed{ margin-left:0; border-top:0;}
+	.branch-recommend{ display:block; margin-left:48px; margin-top:5px;}
+	.xs-selc-expand, .xs-selc-expand:hover, .xs-selc-expand:focus{ position:absolute; top:35px; right:20px;color:#ffa200;}
+	.selection-expand .regular-radio + label{ padding-left:50px;}
+	.selection-expand .regular-radio+label:before, .selection-expand .regular-radio+label:after{ top:15px}
+}
+
+
+.badge.success{ background:#57ca55; border-radius:3px; padding:8px 15px 6px 15px; color:#ffffff; font-size:16px;margin-top:-4px;}
+.more-info, .more-info:hover, .more-info:focus{ color:#00b3ba;}
+.more-info.ricon i{ font-size:12px; margin-left:10px;}
+
+.list-styled.intended{ padding-left:35px;}

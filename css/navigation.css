@@ -125,7 +125,7 @@
 	.user-profile{ width:46.88rem; margin:0 auto; position:relative;padding:0;}
 	.user-profile > a{ position:absolute; right:0.625rem; top:-2.813rem;z-index:999}
 	.user-profile img{ height:1.875rem; width:1.875rem; position:relative; top:0; left:0;}
-	.user-settings{ padding:15px; display:none; background:#ffffff; position:absolute; right:0; width:265px;}
+	.user-settings{ padding:15px; display:none; background:#ffffff; position:absolute; right:0; width:265px; box-shadow:0 2px 4px #b5b5b5;}
 	.user-settings h3{ color:#333333; font-size:18px; font-weight:400; margin:0;}
 	.user-settings li{ margin-top:15px; padding-top:15px; border-top:1px solid #e8e8e8;}
 	.user-settings li a { color:#4d4d4d;}
@@ -134,10 +134,11 @@
 	.nav-up .brand-logo{ width:2.813rem;}
 	.nav-up .navbar-offcanvas{ float:left;top:-100px;position:absolute;}
 	.nav-up .navbar-panel{  background-color:transparent; }
-	.nav-up .navigation-menu{transition: transform 0.5s ease-in-out;transform: translateY(112px); padding-left:60px; float:left;}
+	.nav-up .navigation-menu{transition: transform 0.5s ease-in-out;transform: translateY(112px); padding-left:60px; float:left; width:auto;}
 	.nav-up .user-profile{position:absolute; top:115px}
 	.nav-header-inner, .navigation-menu{ width:46.88rem;}
 	.nav-up .user-profile > a{ top:0;}
+	.nav-up .user-settings{ top:45px;}
 	
 	
 	.navigation-menu{ max-width:73.13rem; margin:0 auto; border-top:0;}

@@ -9,7 +9,10 @@
 .selection-expand .regular-radio + label{ font-size:22px; font-weight:500; padding-left:70px; color:#4d4d4d; margin-right:20px; line-height:1;}
 .selection-expand p{ padding-left:70px; margin-top:20px;}
 .selection-expand p a.more-info{ display:block; margin-top:15px;}
-.selection-collapsed{ margin-left:70px; margin-top:15px; border-top:1px solid #b2b2b2; padding-top:12px; display:none;}
+.selection-collapsed{ margin-left:70px; margin-top:15px;padding-top:12px; display:none;}
+.selection-collapsed p{ margin-top:0; padding-left:0;}
+.selection-collapsed p em{ font-weight:500; font-style:normal;}
+.selection-agree{margin-left:70px; margin-top:15px; border-top:1px solid #b2b2b2; padding-top:12px; }
 
 @media all and (max-width:767px){
 	.selection-expand{ padding:15px 20px;}

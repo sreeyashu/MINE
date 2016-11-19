@@ -37,7 +37,7 @@
 	.sb-promo-block .btn{ position:relative; right:0; margin-bottom:30px;}
 }
 @media all and (max-width:767px){
-	.sb-container.sb-flow{padding: 20px 10px 60px 10px;text-align: center;}/**/
+	.sb-container.sb-flow{padding: 20px 10px 60px 10px;}/**/
 	.sb-eid-container {padding-right: 0;}
     /*.sb-promo-block .btn-cont-right{ float:none;text-align: center;}
 	.sb-promo-block .btn-cont-right .btn{ float:none;}*/
